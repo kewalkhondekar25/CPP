@@ -14,4 +14,6 @@ int main(){
     cin>>b;
 
     cout<<"sum of two numbers are: "<<add(a, b);
+
+    return 0;
 }
