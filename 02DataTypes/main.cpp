@@ -21,6 +21,8 @@ int main(){
     cout<<name<<endl;
     cout<<"the score is "<<score3;
 
+    //new 
+
     return 0;
 
 }

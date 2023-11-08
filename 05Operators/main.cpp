@@ -14,6 +14,25 @@ int main(){
     cout<<"a + b is: "<<a + b<<endl;
     cout<<"a - b is: "<<a - b<<endl;
     cout<<"a * b is: "<<a * b<<endl;
+    cout<<"a / b is: "<<a / b<<endl;
+
+    cout<<"a ++ is: "<<a++ <<endl;
+    cout<<"a -- is: "<<a-- <<endl;
+    cout<<"++a is: "<<++a<<endl;
+    cout<<"--a is: "<<--a<<endl;
+
+    //comparision operators
+    cout<<"the value of a == b is: "<<(a == b)<<endl;
+    cout<<"the value of a != b is: "<<(a != b)<<endl;
+    cout<<"the value of a >= b is: "<<(a >= b)<<endl;
+    cout<<"the value of a <= b is: "<<(a <= b)<<endl;
+    cout<<"the value of a > b is: "<<(a > b)<<endl;
+    cout<<"the value of a < b is: "<<(a < b)<<endl;
+
+    //logical operators
+    
+
+
     //typeCasting
     cout<<"a / b is: "<<(float) a / b<<endl;
 

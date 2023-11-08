@@ -1,7 +1,15 @@
 #include <iostream>
 using namespace std;
 
+//global variable
+int glo = 12;
+
+void sum(){ 
+    cout<<glo;
+}
+
 int main(){
+    int glo = 24;
 
     //variables
     int _k = 25;
@@ -13,9 +21,11 @@ int main(){
     cout<<marksInMaths;
 
     //variable scope
-    //local variable
-    int local = 5;
-    cout<<"Local variable is: "<<local;
+    //local variable;
+    int variable = 5;
+    
+    sum();
+    cout<<"global variable is: "<<glo;
 
 
 }
