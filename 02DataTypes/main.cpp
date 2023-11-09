@@ -21,6 +21,9 @@ int main(){
     cout<<name<<endl;
     cout<<"the score is "<<score3;
 
+     //typeCasting
+    cout<<"a / b is: "<<(float) a / b<<endl;
+
     return 0;
 
 }
