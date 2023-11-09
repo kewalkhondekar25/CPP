@@ -30,8 +30,12 @@ int main(){
     cout<<"the value of a < b is: "<<(a < b)<<endl;
 
     //logical operators
-    
-
+    //AND
+    cout<<"a == b && a <= b is: "<<((a == b) && (a <= b))<<endl;
+    //OR
+    cout<<"a == b || a <= b is: "<<((a==b) || (a <= b))<<endl;
+    //NOT
+    cout<<"(!(a == b)) is: "<<(!(a == b))<<endl;
 
     //typeCasting
     cout<<"a / b is: "<<(float) a / b<<endl;
