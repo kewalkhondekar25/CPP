@@ -51,9 +51,7 @@ int main(){
     cout<<"values are: "<<sizeof(3.14f)<<endl;
     cout<<"values are: "<<sizeof(1.423l)<<endl;
 
-    //typeCasting
-    cout<<"a / b is: "<<(float) a / b<<endl;
-    cout<<d<<endl<<e;
+   
 
     return 0;
 
