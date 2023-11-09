@@ -25,7 +25,13 @@ int main(){
     int variable = 5;
     
     sum();
-    cout<<"global variable is: "<<glo;
+    cout<<"global variable is: "<<glo<<endl;
+
+     //reference vriables
+    float x = 25;
+    float & y = x;
+    cout<<"value of x: "<<x<<endl;
+    cout<<"value of x: "<<y;
 
 
 }
