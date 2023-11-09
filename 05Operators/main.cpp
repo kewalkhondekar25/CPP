@@ -1,9 +1,12 @@
 #include <iostream>
 using namespace std;
 
+int global = 8;
+
 int main(){
 
     int a, b;
+    int global = 9;
 
     cout<<"Enter first number: "<<endl;
     cin>>a;
@@ -30,6 +33,7 @@ int main(){
     cout<<"the value of a < b is: "<<(a < b)<<endl;
 
     //logical operators
+
     //AND
     cout<<"a == b && a <= b is: "<<((a == b) && (a <= b))<<endl;
     //OR
@@ -37,8 +41,19 @@ int main(){
     //NOT
     cout<<"(!(a == b)) is: "<<(!(a == b))<<endl;
 
+    //scope resolution operator
+    cout<<"global value is : "<<::global<<endl;
+
+    //floating point literal
+    float d = 3.14f;
+    //double point literal
+    long double e = 1.423l;
+    cout<<"values are: "<<sizeof(3.14f)<<endl;
+    cout<<"values are: "<<sizeof(1.423l)<<endl;
+
     //typeCasting
     cout<<"a / b is: "<<(float) a / b<<endl;
+    cout<<d<<endl<<e;
 
     return 0;
 
